@@ -1,0 +1,124 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9d6db;
+  color: #333333;
+}
+
+/* Header */
+.header {
+  background-color: #f9d6db;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  background: url('https://via.placeholder.com/1200x600/000000/FFFFFF?text=Lace+Background') no-repeat center center/cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.hero-content {
+  position: relative;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.subscribe input {
+  padding: 10px;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Blog Section */
+.blog {
+  background-color: #f9d6db;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.blog h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.blog-button {
+  background: #4b4e6d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* FAQ Section */
+.faq {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faq details {
+  background: #4b4e6d;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faq summary {
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8em;
+  color: #555555;
+}
